@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# If request is not an existing file/folder, map /rota to /rota.php when available.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.+)$ $1.php [L,QSA]
+
+DirectoryIndex index.php

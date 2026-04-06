@@ -1,0 +1,74 @@
+﻿# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# IDEs
+.idea/
+.vscode/
+.zed/
+.fleet/
+.nova/
+.phpactor.json
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+auth.json
+
+# Logs / cache
+*.log
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Laravel generated/public artifacts
+/public/build/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail/
+/storage/debugbar/
+/storage/logs/*.log
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/views/.gitignore
+
+# SQLite / local DB files
+*.sqlite
+*.sqlite3
+*.db
+/database/*.sqlite
+/database/*.db
+
+# Runtime/test local files
+/.phpunit.cache/
+/.tmp_*
+/tmp/
+
+# Frontend
+/npm-debug.log*
+/yarn-debug.log*
+/yarn-error.log*
+/pnpm-debug.log*
+
+# Misc Laravel helpers
+_ide_helper.php
+_ide_helper_models.php
+
+# Local server configs
+Homestead.json
+Homestead.yaml
