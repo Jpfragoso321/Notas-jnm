@@ -220,10 +220,10 @@ function resumir_texto_pdf(string $texto, int $limite): string
 function etapa_para_titulo(string $etapa): string
 {
     $mapa = [
-        '1_bimestre' => '1o BIMESTRE',
-        '2_bimestre' => '2o BIMESTRE',
-        '3_bimestre' => '3o BIMESTRE',
-        '4_bimestre' => '4o BIMESTRE',
+        '1_bimestre' => '1º BIMESTRE',
+        '2_bimestre' => '2º BIMESTRE',
+        '3_bimestre' => '3º BIMESTRE',
+        '4_bimestre' => '4º BIMESTRE',
     ];
 
     return $mapa[$etapa] ?? 'BIMESTRE';
