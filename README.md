@@ -52,10 +52,6 @@ php artisan migrate:fresh --seed
 
 ## Usuarios iniciais
 
-Admin:
-
-- Usuario: `joaopaulofragoso7@gmail.com`
-- Senha: `@Caca060405@`
 
 Professor:
 
